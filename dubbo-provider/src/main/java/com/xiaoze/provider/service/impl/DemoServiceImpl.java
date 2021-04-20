@@ -6,6 +6,7 @@ import com.xiaoze.api.service.DemoService;
 /**
  * DemoServiceImpl
  * 服务提供类
+ *
  * @author xiaoze
  * @date 2018/6/7
  */
@@ -14,6 +15,12 @@ public class DemoServiceImpl implements DemoService {
 
     @Override
     public String sayHello(String name) {
-        return "Hello, " + name + " (from Spring Boot)";
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        return "Hello, " + name + " (from Spring Boot1)";
     }
 }

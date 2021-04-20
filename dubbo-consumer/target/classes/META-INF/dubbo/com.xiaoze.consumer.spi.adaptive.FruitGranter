@@ -1,0 +1,2 @@
+apple=com.xiaoze.consumer.spi.adaptive.AppleGranter
+banana=com.xiaoze.consumer.spi.adaptive.BananaGranter

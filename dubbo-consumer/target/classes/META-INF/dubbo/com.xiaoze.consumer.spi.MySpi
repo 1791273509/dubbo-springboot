@@ -1,0 +1,3 @@
+default=com.xiaoze.consumer.spi.MySpiImpl2
+default2=com.xiaoze.consumer.spi.MySpiImpl
+ss=com.xiaoze.consumer.spi.MySpiImpl

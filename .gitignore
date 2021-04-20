@@ -4,7 +4,7 @@
 mvnw
 *.cmd
 *.log
-
+*.class
 ### STS ###
 .apt_generated
 .classpath
